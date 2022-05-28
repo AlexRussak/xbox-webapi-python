@@ -24,8 +24,8 @@ class Stat(LowerCaseModel):
     xuid: str
     scid: str
     name: str
-    type: str
-    value: str
+    type: Optional[str]
+    value: Optional[str]
     properties: Properties
 
 
